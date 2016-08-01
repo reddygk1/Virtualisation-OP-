@@ -2,6 +2,8 @@ FROM ubuntu:16.04
 
 MAINTAINER Gowtham Reddy "reddygk@student.op.ac.nz"
 
+ENV VERSION reddygk12016-08-02:11:40
+
 RUN apt-get -q update && apt-get -yq dist-upgrade
 RUN apt-get -yq install apache2
 
