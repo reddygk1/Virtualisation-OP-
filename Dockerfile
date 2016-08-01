@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MIANTAINER Gowtham Reddy "reddygk@student.op.ac.nz"
+MAINTAINER Gowtham Reddy "reddygk@student.op.ac.nz"
 
 RUN apt-get -q update && apt-get -yq dist-upgrade
 RUN apt-get -yq install apache2
